@@ -1,5 +1,5 @@
 {
-	"name": "byMeh",
+	"name": "bymeh",
 	"version": "0.0.1",
 	"description": "A Barebone Responsive SCSS Component Layout by thatAfro",
 	"author": "Mehluli thatAfro Hikwa",
@@ -10,7 +10,6 @@
 		"js-dev": "webpack --mode development --watch"
 	},
 	"devDependencies": {
-		"jquery": "^3.6.0",
 		"sass": "^1.53.0",
 		"webpack": "^5.73.0",
 		"webpack-cli": "^4.10.0"
