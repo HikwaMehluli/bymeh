@@ -1,7 +1,7 @@
 {
 	"name": "bymeh",
-	"version": "0.0.1",
-	"description": "A Barebone Responsive SCSS Component Layout by thatAfro",
+	"version": "1.0.0",
+	"description": "A Barebone Responsive starter theme by thatAfro",
 	"author": "Mehluli thatAfro Hikwa",
 	"scripts": {
 		"css-prod": "sass --no-source-map --watch sass/_entry.scss:css/app.css --style compressed",
