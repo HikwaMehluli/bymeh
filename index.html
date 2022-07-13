@@ -20,12 +20,13 @@
 	<div class="grid-section">
 		<div class="third">
 			<h4>Welcome</h4>
-			<p>A Barebone Responsive starter theme by thatAfro. Create something amazing and if you need help check the README.md file or <a href="https://twitter.com/HikwaMehluli" target="_blank">get in touch.</a></p>
+			<p>A Barebone Responsive starter theme by thatAfro. Create something amazing and if you need help check the README.md file.</p>
+			<p><a class="button" href="#">Get Started</a></p>
 		</div>
 		<div class="third">
 			<h4>Mobile Responsive</h4>
 			<p>This starter theme is fully mobile responsive, which means it will scale perfectly on mobile, tablet and computer screens with ease.</p>
-			<p><a class="button" href="#">View Layout</a></p>
+			<p><a class="button" href="#grid-layout">View Grid Layout</a></p>
 		</div>
 		<div class="third">
 			<h4>Sliders</h4>
@@ -34,11 +35,101 @@
 		</div>
 	</div>
 	
+	<div class="container spacing"><hr></div>
+
+	<div id="grid-layout" class="grid-section">
+		<h3>Grid Layout</h3>
+		<p>The grid is a mobile responsive 4-column flexbox based grid with a max width of 1140px, with a simple syntax which makes coding responsive layouts easy. Try resize the browser.</p>
+	</div>	
+	<div class="grid-section">
+		<div class="half">
+			<div class="grid-illustration">
+				<div>Half</div>
+			</div>
+		</div>
+		<div class="half">
+			<div class="grid-illustration">
+				<div>Half</div>
+			</div>
+		</div>
+		
+		<div class="third">
+			<div class="grid-illustration">
+				<div>Third</div>
+			</div>
+		</div>
+		<div class="third">
+			<div class="grid-illustration">
+				<div>Third</div>
+			</div>
+		</div>
+		<div class="third">
+			<div class="grid-illustration">
+				<div>Third</div>
+			</div>
+		</div>
+
+		<div class="quarter">
+			<div class="grid-illustration">
+				<div>Quarter</div>
+			</div>
+		</div>
+		<div class="quarter">
+			<div class="grid-illustration">
+				<div>Quarter</div>
+			</div>
+		</div>
+		<div class="quarter">
+			<div class="grid-illustration">
+				<div>Quarter</div>
+			</div>
+		</div>
+		<div class="quarter">
+			<div class="grid-illustration">
+				<div>Quarter</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container spacing"><hr></div>
+
+	<div class="container">
+		<h3>Tables</h3>
+		<p>All tables are mobile responsive and use a data-attribute in the HTML for displaying table headers on smaller screens</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Artists</th>
+					<th>Art Style</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td data-column="Artist">Pablo Picasso</td>
+					<td data-column="Style">Cubisim lorem</td>
+				</tr>
+				<tr>
+					<td data-column="Artist">Henri Matisse</td>
+					<td data-column="Style">Draughtsmanship</td>
+				</tr>
+				<tr>
+					<td data-column="Artist">Jean-Antoine Watteau</td>
+					<td data-column="Style">Baroque</td>
+				</tr>
+				<tr>
+					<td data-column="Artist">Mehluli Hikwa</td>
+					<td data-column="Style">Digital Design</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
 
 	<footer class="grid-section">
 		<div>Copyright &copy; <span id="copyright-date"></span> Design by <a href="https://thatafro.netlify.app/">thatAfro</a></div>
 	</footer>
 
+	<script src="js/jquery.min.js"></script>
 	<script src="js/app.js"></script>
 
 </body>
