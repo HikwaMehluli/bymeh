@@ -11,8 +11,7 @@
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
-- Forms
-- Lists
+- Grid Section - Flexbox
 - Code
 - Tables
 - Spacing
@@ -44,8 +43,8 @@
 	box-sizing: border-box;
 }
 
-/* For devices larger than 550px */
-@media (min-width: 550px) {
+/* For devices larger than 767px */
+@media (min-width: 767px) {
 	.column,
 	.columns {
 		margin-left: 4%;
@@ -124,43 +123,53 @@
 
 
 
-
-
-
-
-
-
 // 
 //
-// Lists
+// Grid Section - Flexbox
 // 
 //
 
-ul {
-	list-style: circle inside;
+.grid-section {
+	position: relative;
+	width: 95%;
+	max-width: 1140px;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	.third {
+		background: white;
+		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		flex: 0 1 calc(33% - 1em);
+		margin-bottom: 20px;
+		transition: all 0.5s;	
+	}
 }
 
-ol {
-	list-style: decimal inside;
+
+
+// For devices smaller than 767px
+@media (max-width: 767px) {
+    .grid-section {
+		.third {
+			flex: 0 1 calc(50% - .5em);
+		}
+    }
 }
 
-ol,
-ul {
-	padding-left: 0;
-	margin-top: 0;
+@media (max-width: 550px) {
+    .grid-section {
+		.third {
+			flex: 0 1 calc(100% - .5em);
+		}
+    }
 }
 
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-	margin: 1.5rem 0 1.5rem 3rem;
-	font-size: 90%;
-}
-
-li {
-	margin-bottom: 1rem;
-}
 
 
 
