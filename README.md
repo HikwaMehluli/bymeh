@@ -1,23 +1,23 @@
 # A Barebone Responsive starter theme by thatAfro
-Link to Live Website -  
+Link to Live Website - https://thatafro.netlify.app/
 
 ### Base Responsive Framework
-Skeleton V2.0.4
-###### http://www.opensource.org/licenses/mit-license.php
+Skeleton V2.0.4 - http://www.opensource.org/licenses/mit-license.php
 
 ### Javascript Dependencies
-OwlCarousel2-2.3.4
-###### http://www.opensource.org/licenses/mit-license.php
+Owl Carousel 2 - https://owlcarousel2.github.io/OwlCarousel2
+
+JQuery 3.6.0 - https://jquery.com/download/
 
 ### Development Dependencies
-Install JQuery, SASS, Webpack & Webpack CLI
+JQuery, SASS, Webpack & Webpack CLI
 ```
 npm i jquery sass webpack webpack-cli --save-dev
 ```
 
-## Need help or just want to Get Social
-Website - www.thatafro.netlify.app
-Instagram - www.instagram.com/thatafro
-Twitter - www.twitter.com/HikwaMehluli
-Behance - www.be.net/HikwaMehluli
-Linkedin - www.linkedin.com/in/hikwamehluli
+### Need help or just want to Get Social
+Website - https://thatafro.netlify.app/
+
+Twitter - https://twitter.com/HikwaMehluli
+
+Linkedin - http://linkedin.com/in/hikwamehluli
