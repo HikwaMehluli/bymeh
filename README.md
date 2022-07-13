@@ -16,8 +16,4 @@ npm i jquery sass webpack webpack-cli --save-dev
 ```
 
 ### Need help or just want to Get Social
-Website - https://thatafro.netlify.app/
-
-Twitter - https://twitter.com/HikwaMehluli
-
-Linkedin - http://linkedin.com/in/hikwamehluli
+[Personal Website](https://thatafro.netlify.app "Design Portfolio") | [Behance](https://www.behance.net/HikwaMehluli "Design Portfolio") | [Instagram](https://www.instagram.com/thatafro "Digital Illustrations") | [Twitter](https://twitter.com/HikwaMehluli "Follow Méh on Twitter") | [YouTube](https://www.youtube.com/thatafro "Check my Videos")
