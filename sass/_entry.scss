@@ -1,7 +1,9 @@
+// Demo SCSS
+@import './_demo.scss';
+
+// Core SCSS
 @import './_grid.scss';
 @import './_typography.scss';
-
-// Other CSS__
 @import './buttons.scss';
 @import './footer.scss';
 @import './forms.scss';

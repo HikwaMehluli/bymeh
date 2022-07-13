@@ -17,121 +17,138 @@
 
 <body>
 	
-	<div class="grid-section">
-		<div class="third">
-			<h4>Welcome</h4>
-			<p>A Barebone Responsive starter theme by thatAfro. Create something amazing and if you need help check the README.md file.</p>
-			<p><a class="button" href="#">Get Started</a></p>
-		</div>
-		<div class="third">
-			<h4>Mobile Responsive</h4>
-			<p>This starter theme is fully mobile responsive, which means it will scale perfectly on mobile, tablet and computer screens with ease.</p>
-			<p><a class="button" href="#grid-layout">View Grid Layout</a></p>
-		</div>
-		<div class="third">
-			<h4>Sliders</h4>
-			<p>The slider included is <a href="https://owlcarousel2.github.io/OwlCarousel2" target="_blank">Owl Carousel 2</a>, a touch enabled jQuery plugin that lets you create beautiful responsive carousel sliders.</p>
-			<p><a class="button" href="#">View Sliders</a></p>
-		</div>
-	</div>
-	
-	<div class="container spacing"><hr></div>
-
-	<div id="grid-layout" class="grid-section">
-		<h3>Grid Layout</h3>
-		<p>The grid is a mobile responsive 4-column flexbox based grid with a max width of 1140px, with a simple syntax which makes coding responsive layouts easy. Try resize the browser.</p>
-	</div>	
-	<div class="grid-section">
-		<div class="half">
-			<div class="grid-illustration">
-				<div>Half</div>
-			</div>
-		</div>
-		<div class="half">
-			<div class="grid-illustration">
-				<div>Half</div>
-			</div>
-		</div>
-		
-		<div class="third">
-			<div class="grid-illustration">
-				<div>Third</div>
-			</div>
-		</div>
-		<div class="third">
-			<div class="grid-illustration">
-				<div>Third</div>
-			</div>
-		</div>
-		<div class="third">
-			<div class="grid-illustration">
-				<div>Third</div>
-			</div>
-		</div>
-
-		<div class="quarter">
-			<div class="grid-illustration">
-				<div>Quarter</div>
-			</div>
-		</div>
-		<div class="quarter">
-			<div class="grid-illustration">
-				<div>Quarter</div>
-			</div>
-		</div>
-		<div class="quarter">
-			<div class="grid-illustration">
-				<div>Quarter</div>
-			</div>
-		</div>
-		<div class="quarter">
-			<div class="grid-illustration">
-				<div>Quarter</div>
+	<div class="content-area">
+		<div class="grid-section">
+			<div class="full demo-intro">
+				<h1>A barebone responsive SCSS boilerplate.</h1>
+				<p><a class="button" href="#">Download</a></p>
 			</div>
 		</div>
 	</div>
 	
-	<div class="container spacing"><hr></div>
+	<div class="content-area">
+		<div class="sticky-container">
+			<div class="third column">
+				<div class="sticky-sidebar">
+					<a class="button" href="#grid-layout">Grid Layout</a>
+					<a class="button" href="#slider">Slider</a>
+					<a class="button" href="#tables">Tables</a>
+				</div>
+			</div>
 
-	<div class="container">
-		<h3>Tables</h3>
-		<p>All tables are mobile responsive and use a data-attribute in the HTML for displaying table headers on smaller screens</p>
-		<table>
-			<thead>
-				<tr>
-					<th>Artists</th>
-					<th>Art Style</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td data-column="Artist">Pablo Picasso</td>
-					<td data-column="Style">Cubisim lorem</td>
-				</tr>
-				<tr>
-					<td data-column="Artist">Henri Matisse</td>
-					<td data-column="Style">Draughtsmanship</td>
-				</tr>
-				<tr>
-					<td data-column="Artist">Jean-Antoine Watteau</td>
-					<td data-column="Style">Baroque</td>
-				</tr>
-				<tr>
-					<td data-column="Artist">Mehluli Hikwa</td>
-					<td data-column="Style">Digital Design</td>
-				</tr>
-			</tbody>
-		</table>
+			<div class="two-thirds column">
+				<div id="grid-layout" class="grid-section">
+					<div class="full">
+						<h3>Grid Layout</h3>
+						<p>The grid is a mobile responsive 4-column flexbox based grid with a max width of 1140px, with a simple syntax which makes coding responsive layouts easy. Try resize the browser.</p>
+					</div>
+				</div>	
+				<div class="grid-section">
+					<div class="half">
+						<div class="grid-illustration">
+							<div>Half</div>
+						</div>
+					</div>
+					<div class="half">
+						<div class="grid-illustration">
+							<div>Half</div>
+						</div>
+					</div>
+					
+					<div class="third">
+						<div class="grid-illustration">
+							<div>Third</div>
+						</div>
+					</div>
+					<div class="third">
+						<div class="grid-illustration">
+							<div>Third</div>
+						</div>
+					</div>
+					<div class="third">
+						<div class="grid-illustration">
+							<div>Third</div>
+						</div>
+					</div>
+			
+					<div class="quarter">
+						<div class="grid-illustration">
+							<div>Quarter</div>
+						</div>
+					</div>
+					<div class="quarter">
+						<div class="grid-illustration">
+							<div>Quarter</div>
+						</div>
+					</div>
+					<div class="quarter">
+						<div class="grid-illustration">
+							<div>Quarter</div>
+						</div>
+					</div>
+					<div class="quarter">
+						<div class="grid-illustration">
+							<div>Quarter</div>
+						</div>
+					</div>
+				</div>
+
+				<hr>
+				<div id="slider" class="grid-section">
+					<div class="full">
+						<h3>Slider</h3>
+						<p>The slider included is <a href="https://owlcarousel2.github.io/OwlCarousel2" target="_blank">Owl Carousel 2</a>, a touch enabled jQuery plugin that lets you create beautiful responsive carousel sliders.</p>
+					</div>
+				</div>	
+				<div class="grid-section">
+					<h1>SLIDER COMING SOON!</h1>
+				</div>
+				
+				<hr>
+			
+				<div id="tables" class="grid-section">
+					<div class="full">
+						<h3>Tables</h3>
+						<p>All tables are mobile responsive and use a data-attribute in the HTML for displaying table headers on smaller screens</p>
+					</div>
+					
+					<table>
+						<thead>
+							<tr>
+								<th>Artists</th>
+								<th>Art Style</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td data-column="Artist">Pablo Picasso</td>
+								<td data-column="Style">Cubisim lorem</td>
+							</tr>
+							<tr>
+								<td data-column="Artist">Henri Matisse</td>
+								<td data-column="Style">Draughtsmanship</td>
+							</tr>
+							<tr>
+								<td data-column="Artist">Jean-Antoine Watteau</td>
+								<td data-column="Style">Baroque</td>
+							</tr>
+							<tr>
+								<td data-column="Artist">Mehluli Hikwa</td>
+								<td data-column="Style">Digital Design</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+			</div>
+		</div>
 	</div>
-	
 
-	<footer class="grid-section">
+	<footer class="content-area">
 		<div>Copyright &copy; <span id="copyright-date"></span> Design by <a href="https://thatafro.netlify.app/">thatAfro</a></div>
 	</footer>
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/app.js"></script>
-
 </body>
-
 </html>

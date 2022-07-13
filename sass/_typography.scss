@@ -24,10 +24,12 @@ html {
 
 body {
 	font-size: 1.5em;
+
 	/* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 1.6;
 	font-weight: 400;
 	color: var(--black);
+	margin: 0;
 }
 
 h1,
@@ -78,10 +80,14 @@ h6 {
 }
 
 hr {
-	margin-top: 3rem;
-	margin-bottom: 3.5rem;
+	margin-top: 4rem !important;
+	margin-bottom: 4rem !important;
 	border-width: 0;
-	border-top: 1px solid #E1E1E1;
+	border-top: 1px solid var(--grey);
+	position: relative;
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 /* Larger than phablet */

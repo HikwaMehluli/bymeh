@@ -23,23 +23,13 @@ input[type="button"] {
 	transition: var(--transition);
 	white-space: nowrap;
 
-	&:hover {
+	&:hover,
+	.button:focus,
+	button:focus,
+	input[type="submit"]:focus,
+	input[type="reset"]:focus,
+	input[type="button"]:focus {
 		color: var(--white);
 		background-color: var(--sec-color);
 	}
-}
-
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-	color: var(--white);
-	background-color: var(--sec-color);
 }
