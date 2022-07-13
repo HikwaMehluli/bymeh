@@ -1,8 +1,12 @@
-# A Barebone Responsive SCSS Component Layout by thatAfro
+# A Barebone Responsive starter theme by thatAfro
 Link to Live Website -  
 
 ### Base Responsive Framework
 Skeleton V2.0.4
+###### http://www.opensource.org/licenses/mit-license.php
+
+### Javascript Dependencies
+OwlCarousel2-2.3.4
 ###### http://www.opensource.org/licenses/mit-license.php
 
 ### Development Dependencies
